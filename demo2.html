@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from Event</title>
+</head>
+<body>
+    
+<form action="" onsubmit="submitfunc()">
+    <label for="">Name</label><input type="text" id="fname" required oninvalid="alert('Please fill the name')" onfocus="focusfunc(this)" onblur="blurfunc(this)" oninput="inputfunction(this)" onselect="selectfunc(this)" ><br><br>
+    <label for="">Class</label><input type="text" id=""  onfocus="focusfunc(this)" onblur="blurfunc(this)" ><br><br>
+    <label for="">Country</label>
+    <select name="" id=""  onfocus="focusfunc(this)" onblur="blurfunc(this)" onchange="changefunc(this)" >
+        <option value="India">India</option>
+        <option value="Uk">Uk</option>
+        <option value="UAE">UAE</option>
+        <option value="USA">USA</option>
+    </select>
+    <br><br>
+    <input type="submit">
+</form>
+
+<div id="test" style="border:1px red solid;" ></div>
+<script>
+function focusfunc(element){
+   element.style.background='red'
+}
+function blurfunc(element){
+   element.style.background=''
+}
+
+function inputfunction(element){
+    var x = element.value
+    document.getElementById("test").innerHTML = x
+}
+// on change function 
+function changefunc(element){
+    var x = element.value
+    document.getElementById("test").innerHTML = x
+}
+//  Select function
+function selectfunc(){
+        console.log("you select this text: ")
+}
+// Submit function
+function submitfunc(){
+    console.log("you sucessfully submit the form")
+    var x = document.getElementById("fname").value
+
+}
+// Invalid Function
+
+
+</script>
+</body>
+</html> -->

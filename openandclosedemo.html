@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open close</title>
+</head>
+<body>
+    
+    <button onclick="openWindow()" >button</button>
+    <button onclick="moveTo()" >move to</button>
+    
+    <script>
+        
+        function openWindow(){
+            window.open("","","width=600px,height=500px");
+            window.document.write("<p> this is the sample para page. </p>");
+        }
+        function moveTo(){
+            window .moveTo(100,100);
+        }
+    </script>
+</body>
+</html>
